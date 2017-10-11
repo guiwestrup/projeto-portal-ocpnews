@@ -30,13 +30,14 @@ a.links.anuncie {
 
 .placeholder img:hover
 {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  -moz-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -o-transform: scale(1.06);
 }
 .placeholder img:hover
 {
-  -webkit-animation: rodaroda 0.6s linear;
+  -webkit-animation: rodaroda 0.5s ease-out;
+  
 }
 @-webkit-keyframes rodaroda {
     0% 
@@ -45,11 +46,11 @@ a.links.anuncie {
     }
     50% 
     {
-        -webkit-transform:rotate(180deg);
+        -webkit-transform:rotate(60deg);
     }
     100% 
     {
-        -webkit-transform:rotate(360deg);
+        -webkit-transform:rotate(0deg);
     }
 }
 @media print {
