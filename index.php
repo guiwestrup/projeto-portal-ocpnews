@@ -7,11 +7,6 @@
     <link rel="SHORTCUT ICON" href="imagens/favicon.ico" type="image/x-icon" />    
     <title>Rede OCP de Comunicação</title>
     <link rel="alternate" type="application/xml" title="" href="" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link href="css/dashboard.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
-
 </head>
 <body>
     <center>
@@ -44,15 +39,15 @@
             </main>
         </div>
     </div>
-        <footer>
+        <!-- <footer>
             <center><a href="#" class="links quem">quem somos</a> <a href="#" class="links plataforma" >plataforma</a> <a href="#" class="links anuncie" >anuncie conosco</a> <a href="#" class="links contato">contato</a></center>
-        </footer>
+        </footer> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/ocp.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
  </body>
 </html>
+    <link rel="stylesheet" href="css/estilo.min.css">
+    <link href="css/dashboard.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
